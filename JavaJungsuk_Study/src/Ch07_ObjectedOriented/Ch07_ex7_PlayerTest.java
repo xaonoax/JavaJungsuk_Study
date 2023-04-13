@@ -5,7 +5,7 @@ public class Ch07_ex7_PlayerTest {
 	public static void main(String[] args) {
 //		Player p = new Player();  // 추상 클래스의 객체를 생성(미완성 클래스라 생성 불가
 //		AudioPlayer ap = ()new AudioPlayer();
-		Player ap = ()new AudioPlayer();  // 다형성
+		Player ap = new AudioPlayer();  // 다형성
 		ap.play(100);
 		ap.stop();
 		
